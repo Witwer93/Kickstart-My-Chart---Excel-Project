@@ -9,7 +9,7 @@ Instructions:
 
 Use conditional formatting to fill each cell in the state column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
-Here's a picture of the excel before and after the conditional formatting:
+Here's a picture of the excel after the conditional formatting:
 
 2. Create a new column O called Percent Funded that uses a formula to uncover how much money a campaign made to reach its initial goal.
 3. Use conditional formatting to fill each cell in the Percent Funded column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
@@ -52,3 +52,58 @@ The total number of Kickstarter projects was significantly smaller between 2009 
   4.	A pivot table that examines success rate, goal size for each category
   5.	A line graph that tracks success rates for categories/sub-categories over months/years
   6.	A bar graph comparing success rate to Spotlight/Staff’s Choice.
+
+
+
+There were 2 Bonus challenges that I completed as well:
+
+**---Bonus Challenge 1---*
+
+1. Create a new sheet with 8 columns:
+-Goal
+-Number Successful
+-Number Failed
+-Number Canceled
+-Total Projects
+-Percentage Successful
+-Percentage Failed
+-Percentage Canceled
+
+2.In the Goal column, create 12 rows with the following headers:
+-Less than 1000
+-1000 to 4999
+-5000 to 9999
+-10000 to 14999
+-15000 to 19999
+-20000 to 24999
+-25000 to 29999
+-30000 to 34999
+-35000 to 39999
+-40000 to 44999
+-45000 to 49999
+-Greater than or equal to 50000
+
+3.Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with this data.
+
+4. Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
+
+5. Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+
+**---Bonus Challenge 2---**
+
+If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
+For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
+
+1. Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+
+2. Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+ -The mean number of backers.
+ -The median number of backers.
+ -The minimum number of backers.
+ -The maximum number of backers.
+ -The variance of the number of backers.
+ -The standard deviation of the number of backers.
+ 
+3.Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+
+4. Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
